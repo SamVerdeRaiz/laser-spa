@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Serenare Spa</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="main.js"></script>
+</head>
+<body>
+
+  <!-- HERO con video de fondo -->
+  <header class="hero">
+    <video autoplay muted loop playsinline class="background-video">
+      <source src="videos/hero-video.mp4" type="video/mp4" />
+      Tu navegador no soporta video.
+    </video>
+    <div class="hero-content">
+      <h1>Relajación & Belleza</h1>
+      <p>Tu piel renovada, tu confianza restaurada</p>
+      <a href="#servicios" class="btn-primary">Ver Servicios</a>
+    </div>
+  </header>
+
+  <!-- Sección parallax -->
+  <section class="parallax">
+    <div class="overlay">
+      <h2>Relajación. Belleza. Confianza.</h2>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="servicios">
+    <h2>Servicios</h2>
+    <div class="servicios-grid">
+      <div class="servicio">
+        <h3>Depilación Láser</h3>
+        <p>Resultados visibles desde la primera sesión.</p>
+      </div>
+      <div class="servicio">
+        <h3>Masajes Relajantes</h3>
+        <p>Reduce el estrés y mejora tu bienestar físico.</p>
+      </div>
+      <div class="servicio">
+        <h3>Tratamientos Faciales</h3>
+        <p>Brilla con una piel sana y fresca.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre nosotros -->
+  <section class="sobre-nosotros">
+    <div class="contenido">
+      <h2>Alicia Almeida Díaz</h2>
+      <p>Especialista en estética corporal y depilación con más de 10 años de experiencia brindando bienestar y resultados reales.</p>
+    </div>
+  </section>
+
+  <!-- Formulario -->
+  <section class="formulario">
+    <h2>Agenda tu cita</h2>
+    <form id="formulario-cita">
+      <input type="text" id="nombre" placeholder="Tu nombre" required />
+      <input type="text" id="servicio" placeholder="Servicio deseado" required />
+      <input type="datetime-local" id="fecha" required />
+      <button type="submit" class="btn-primary">Agendar por WhatsApp</button>
+    </form>
+  </section>
+
+  <!-- Botón flotante WhatsApp -->
+  <a href="https://wa.me/525544769058" class="whatsapp-float" target="_blank">
+    <img src="images/whatsapp-icon.png" alt="WhatsApp" />
+  </a>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Serenare Spa · Hecho con amor ✨</p>
+  </footer>
+
+</body>
+</html>
